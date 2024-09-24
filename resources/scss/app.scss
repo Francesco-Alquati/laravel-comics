@@ -82,7 +82,7 @@ header ul {
     top: 0px;
     left: 250px;
 }
-button:hover{
+.container-home button:hover{
     background-color: blue;
 }
 .comics-card img:hover{
@@ -118,4 +118,67 @@ button:hover{
 }
 a:hover{
     color: black;
+}
+.h-300{
+    height: 300px;
+}
+.bg-img{
+    background-image: url('../images/footer-bg.jpg');
+    background-size: cover;
+}
+.bg-logo{
+    background-image: url('../images/dc-logo-bg.png');
+    background-size: cover;
+    width: 430px;
+    position: relative;
+    bottom: 70px;
+}
+footer ul {
+    li{
+        font-size: 11px;
+
+        a{
+            text-decoration: none;
+            color: rgb(138, 138, 138);
+        }
+    }
+}
+.shop {
+    position: absolute;
+    left: 175px;
+    top: 160px;
+}
+footer a:hover{
+    color: white;
+}
+.bg-grey{
+    background-color: rgb(45, 45, 45);
+}
+.h-129{
+    height: 129px;
+}
+.text-blue{
+    color: #0281F6;
+}
+button{
+    padding: 10px;
+    border: 1px solid #0281F6;
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.bg-grey img{
+    margin: 0px 12px;
+}
+.bg-grey img:hover{
+    border-radius: 50%;
+    background-color:  white;
+}
+h4:hover{
+    color: blue;
+}
+button:hover{
+    background-color: #0281F6;
+}
+.h-400{
+    height: 400px;
 }
