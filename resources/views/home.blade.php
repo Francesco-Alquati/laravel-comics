@@ -37,7 +37,6 @@
             @foreach ($links as $link)
             <li>
                 <img src="{{ $link['img'] }}" alt="{{ $link ['label'] }}">
-                <a href=""></a>
             </li>
             @endforeach
         </ul>
