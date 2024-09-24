@@ -7,6 +7,10 @@ header img{
     width: 70px;
     margin: 15px 0px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 header ul {
     li{
         margin: 0px 10px;
@@ -16,6 +20,10 @@ header ul {
             text-decoration: none;
             color: rgb(37, 37, 37);
             padding: 39px 0px;
+        }
+        .active{
+            color: #097CEB;
+            border-bottom: 4px solid #097CEB;
         }
     }
 }
@@ -30,4 +38,41 @@ header ul {
     border-bottom: 1px solid #0C6DFD;
     text-align: end;
     font-size: 13px;
+}
+.jumbo{
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 300px;
+}
+.container-jumbo{
+    width: 100%;
+}
+.bg-darkgrey{
+    background-color: rgb(37, 37, 37);
+}
+.button-current{
+    padding: 8px;
+    width: 200px;
+    border: none;
+    background-color: #0281F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.button-more{
+    padding: 5px;
+    width: 200px;
+    border: none;
+    background-color: #0281F6;
+    color: white;
+    font-size: 14px;
+}
+.p-absolute-button{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
+button:hover{
+    background-color: blue;
 }
