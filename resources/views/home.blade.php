@@ -17,12 +17,14 @@
             </div>
             <div class="card-container">
                 <div class="row">
-                    <div class="col-2 mt-5">
-                        <div class="comics-card">
-                            <img :src="" alt="">
-                            <div class="mt-2 text-white text-uppercase fs-10"></div>
+                    @foreach ($comics as $comic)
+                        <div class="col-2 mt-5">
+                            <div class="comics-card">
+                                <img src="{{ $comic['thumb']}}" alt="{{ $comic ['title']}}">
+                                <div class="mt-2 text-white text-uppercase fs-10">{{ $comic ['series']}}</div>
+                            </div>
                         </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
             <div class="text-center mt-5 mb-3">
