@@ -34,11 +34,26 @@
     </div>
     <div class="bg-blue h-130 mx-auto z-index-1">
         <ul class="list-unstyled h-100 text-uppercase d-flex justify-content-center align-items-center">
-            @foreach ($links as $link)
             <li>
-                <img src="{{ $link['img'] }}" alt="{{ $link ['label'] }}">
+                <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png')}}">
+                <a href="#">DIGITAL COMICS</a>
             </li>
-            @endforeach
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png')}}">
+                <a href="#">DC MERCHANDISE</a>
+            </li>
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png')}}">
+                <a href="#">SUBSCRIPTION</a>
+            </li>
+            <li>
+                <img class="special-icon" src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png')}}">
+                <a href="#">COMIC SHOP LOCATOR</a>
+            </li>
+            <li>
+                <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg')}}">
+                <a href="#">DC POWER VISA</a>
+            </li>
         </ul>
     </div>
 @endsection

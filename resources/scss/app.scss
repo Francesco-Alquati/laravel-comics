@@ -89,8 +89,8 @@ header ul {
     border: 2px solid white;
 }
 .comics-card img{
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
 }
 .bg-blue ul {
     li{
@@ -181,4 +181,11 @@ button:hover{
 }
 .h-400{
     height: 400px;
+}
+ul img{
+    width: 40px;
+    margin-right: 10px;
+}
+.bg-blue ul a:hover{
+    color: black;
 }

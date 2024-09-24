@@ -64,7 +64,11 @@
                     <div class="d-flex justify-content-end align-items-center h-129">
                         <h4 class="text-uppercase fs-5 text-blue me-4 mt-2">follow us</h4>
                         <div>
-                            <img src="">
+                            <img src="{{ Vite::asset('resources/images/footer-facebook.png')}}" alt="">
+                            <img src="{{ Vite::asset('resources/images/footer-periscope.png')}}" alt="">
+                            <img src="{{ Vite::asset('resources/images/footer-pinterest.png')}}" alt="">
+                            <img src="{{ Vite::asset('resources/images/footer-twitter.png')}}" alt="">
+                            <img src="{{ Vite::asset('resources/images/footer-youtube.png')}}" alt="">
                         </div>
                     </div>
                 </div>
