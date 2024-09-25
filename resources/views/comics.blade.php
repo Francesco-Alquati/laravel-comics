@@ -105,24 +105,24 @@
             </div>
         </div>
         <div class="row mt-5">
-            <div class="col-2 border border-secondary-subtle">
-                
+            <div class="col-2 border border-secondary-subtle fs-11"></div>
+            <div class="col-2 border border-secondary-subtle fs-11 d-flex justify-content-between align-items-center">
+                <span>Digital Comics</span>
+                <img class="mt-2 mb-2" src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png')}}" alt="">
             </div>
-            <div class="col-2 border border-secondary-subtle">
-                <img src="{{ Vite::asset('resources/images/cta-icons.png')}}"alt="">
+            <div class="col-2 border border-secondary-subtle fs-11 d-flex justify-content-between align-items-center">
+                <span>Shop DC</span>
+                <img class="mt-2 mb-2" src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png')}}" alt="">
             </div>
-            <div class="col-2 border border-secondary-subtle">
-                <img src="{{ Vite::asset('resources/images/cta-icons.png')}}"alt="">
+            <div class="col-2 border border-secondary-subtle fs-11 d-flex justify-content-between align-items-center">
+                <span>Comic Shop Locator</span>
+                <img class="mt-2 mb-2"  src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png')}}" alt="">
             </div>
-            <div class="col-2 border border-secondary-subtle">
-                <img src="{{ Vite::asset('resources/images/cta-icons.png')}}"alt="">
+            <div class="col-2 border border-secondary-subtle fs-11 d-flex justify-content-between align-items-center">
+                <span>Subscriptions</span>
+                <img class="mt-2 mb-2" src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png')}}" alt="">
             </div>
-            <div class="col-2 border border-secondary-subtle">
-                <img src="{{ Vite::asset('resources/images/cta-icons.png')}}"alt="">
-            </div>
-            <div class="col-2 border border-secondary-subtle">
-                
-            </div>
+            <div class="col-2 border border-secondary-subtle fs-11"></div>
         </div>
     </div>
 
