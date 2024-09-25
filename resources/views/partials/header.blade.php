@@ -3,7 +3,7 @@
         <div class="container-header">
             <div class="row">
                 <div class="col-12 text-end fs-11">
-                    <span class="text-uppercase text-white me-5"><a href="{{ route('homepage')}}">dc power visa®</a></span>
+                    <span class="text-uppercase text-white me-5">dc power visa®</span>
                     <span class="text-uppercase text-white">additional dc site<i class="fa-solid fa-caret-down"></i></span>
                 </div>
             </div>
@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-4">
                 <div class="text-center">
-                    <img src="{{ Vite::asset('resources/images/dc-logo.png')}}" alt="dc-comics">
+                    <a href="{{ route('homepage')}}"><img src="{{ Vite::asset('resources/images/dc-logo.png')}}" alt="dc-comics"></a>
                 </div>
             </div>
             <div class="col-8">
