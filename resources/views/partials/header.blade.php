@@ -1,15 +1,15 @@
 <header>
     <div class="header-top bg-primary">
-        <div class="container-comics">
+        <div class="container-header">
             <div class="row">
-                <div class="col-12 text-end me-5 fs-11">
+                <div class="col-12 text-end fs-11">
                     <span class="text-uppercase text-white me-5"><a href="{{ route('homepage')}}">dc power visa®</a></span>
-                    <span class="text-uppercase text-white me-5">additional dc site<i class="fa-solid fa-caret-down"></i></span>
+                    <span class="text-uppercase text-white">additional dc site<i class="fa-solid fa-caret-down"></i></span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-comics">
+    <div class="container-header">
         <div class="row">
             <div class="col-4">
                 <div class="text-center">

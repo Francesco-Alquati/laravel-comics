@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 .fs-11{
     font-size: 11px;
 }
@@ -33,7 +36,12 @@ header ul {
     }
 }
 .container-comics{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container-header{
     max-width: 1300px;
+    margin: 0 auto;
 }
 .card-container{
     max-width: 1100px;
@@ -173,9 +181,6 @@ button{
     border-radius: 50%;
     background-color:  white;
 }
-h4:hover{
-    color: blue;
-}
 button:hover{
     background-color: #0281F6;
 }
@@ -188,4 +193,35 @@ ul img{
 }
 .bg-blue ul a:hover{
     color: black;
+}
+.h-55{
+    height: 55px;
+}
+.p-absolute-comic{
+    position: absolute;
+    left: 435px;
+    bottom: 30px;
+}
+.bg-light-grey {
+    background-color: rgb(232, 231, 231);
+    position: relative;
+    z-index: 1;
+}
+.text-grey{
+    color: rgba(255, 255, 255, 0.71);
+}
+.bg-l-green{
+    background-color: rgb(60, 175, 60);
+}
+.w-281{
+    width: 281.3px;
+}
+.dropdown-toggle:hover{
+    background-color: rgb(60, 175, 60);
+}
+.fs-11{
+    font-size: 11px;
+}
+.bg-light-grey a{
+    color: #0281F6;
 }
